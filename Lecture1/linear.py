@@ -17,7 +17,7 @@ b = mean(y) - a * mean(x) # аналогично на a
 print("a is ", a)
 print("b is ", b)
 
-model_x = linspace(0, 1, 2) # абсцисна ос - от - 1 до 1
+model_x = linspace(0, 1, 2) # абсцисна ос - от 0 до 1
 scatter(x, y) # изписване на точките
 plot(model_x, model_x * a + b, 'r-', linewidth = 2) #  model_x * a + b е динамично сметната ординатна ос, с цел да влезнат всички точки в графиката
 show()
